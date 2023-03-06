@@ -39,6 +39,9 @@ public class Test {
         System.out.println("dev-->hello world3!");
         System.out.println("dev-->hello world4!");
         
+        System.out.println("远程-->hello world5!");
+        System.out.println("远程-->hello world3!");
+        System.out.println("远程-->hello world4!");
         
     }
 }
