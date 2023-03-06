@@ -47,5 +47,10 @@ public class Test {
         System.out.println("master-->hello world5!");
         System.out.println("master-->hello world3!");
         System.out.println("master-->hello world4!");
+
+        System.out.println("远程-->hello world5!");
+        System.out.println("远程-->hello world3!");
+        System.out.println("远程-->hello world4!");
+
     }
 }
