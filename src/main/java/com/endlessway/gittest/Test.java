@@ -21,7 +21,5 @@ public class Test {
         System.out.println("feature-->hello world5!");
         System.out.println("dev-->hello world3!");
         System.out.println("dev-->hello world4!");
-
-        System.out.println("master-->master操作了");
     }
 }
