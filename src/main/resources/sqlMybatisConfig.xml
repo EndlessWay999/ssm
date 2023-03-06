@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    <properties resource="jdbc.properties"/>-->
+<!--    &lt;!&ndash; 环境配置，可以配置多个环境 &ndash;&gt;-->
+<!--    <environments default="dev">-->
+<!--        &lt;!&ndash;-->
+<!--            environment用来对某个环境进行配置-->
+<!--            id：环境标识，唯一-->
+<!--         &ndash;&gt;-->
+<!--        <environment id="dev">-->
+<!--            &lt;!&ndash; 事务管理器工厂配置 &ndash;&gt;-->
+<!--            <transactionManager type="org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory"/>-->
+<!--            &lt;!&ndash; 数据源工厂配置，使用工厂来创建数据源 &ndash;&gt;-->
+<!--            <dataSource type="org.apache.ibatis.datasource.pooled.PooledDataSourceFactory">-->
+<!--                <property name="driver" value="${jdbc.driver}"/>-->
+<!--                <property name="url" value="${jdbc.url}"/>-->
+<!--                <property name="username" value="${jdbc.username}"/>-->
+<!--                <property name="password" value="${jdbc.password}"/>-->
+<!--            </dataSource>-->
+<!--        </environment>-->
+<!--    </environments>-->
+<!--    <mappers>-->
+<!--        <mapper resource="mapper/SysUserMapper.xml"/>-->
+<!--    </mappers>-->
+
+    <!-- 开启延迟加载 该项默认为false，即所有关联属性都会在初始化时加载
+		true表示延迟按需加载 -->
+    <settings>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!-- 开启二级缓存 -->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+</configuration>
