@@ -12,5 +12,7 @@ public class Test {
         System.out.println("hot-fix-->hello world3!");
         System.out.println("hot-fix-->hello world4!");
         System.out.println("hot-fix-->hello world5!");
+
+        System.out.println("feature-->hello world5!");
     }
 }
